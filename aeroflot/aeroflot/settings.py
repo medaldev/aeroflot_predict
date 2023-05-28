@@ -37,6 +37,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'aeroflot.urls'
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
+DATASETS_DIR = os.path.join(BASE_DIR, "Datasets")
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
